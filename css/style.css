@@ -1,0 +1,163 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+body{}
+header{}
+.container{
+	width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: 1px solid #73737382;
+}
+.logo{
+	width: 20%;
+    float: left;
+    padding: 20px 0;
+}
+.logo img{}
+.social{
+	width: 80%;
+    float: left;
+    padding: 20px 0;
+}
+.social ul{
+	text-align: right;
+}
+.social ul li{
+	list-style: none;
+    display: inline-block;
+    position: relative;
+}
+.social ul li a{}
+.social ul li a img{}
+.social ul li .hand{
+	position: absolute;
+    bottom: 2px;
+    left: 10px;
+}
+
+nav{
+	width: 100%;
+	padding: 10px 0;
+}
+nav ul{
+	overflow: hidden;
+}
+nav ul li{
+	list-style: none;
+    float: left;
+}
+nav ul li a{
+	font-size: 18px;
+    color: #737373;
+    padding-right: 22px;
+    text-decoration: none;
+    font-weight: 550;
+}
+nav ul li a:hover{
+	color: #29b966;
+}
+.banner{
+	background: url(../images/bannerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner img{
+	transform: translateY(60px);
+    margin: 0 auto;
+    display: block;
+    padding: 60px;
+}
+.banner-part{
+    padding: 100px 0 60px;
+    text-align: center;
+}
+article{}
+article p{
+	font-size: 20px;
+    color: #737373;
+}
+article a{
+	display: inline-block;
+    text-decoration: none;
+    background: #2dcc70;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.vedio-part{
+	background: #ecf1f185;
+}
+.vedio{
+	width: 45%;
+    float: left;
+}
+.vedio img{}
+.vedio-contant{
+	width: 55%;
+    float: left;
+    text-align: left;
+    padding: 50px 0 0;
+}
+.vedio-contant h1{}
+.vedio-contant p{}
+.findout-part{
+	background: #464c52;
+    padding: 50px 0;
+    color: white;
+}
+.findout-part ul{}
+.findout-part ul h1{}
+.findout-part ul li{
+	float: left;
+    width: 50%;
+    list-style: none;
+}
+.findout-part ul a{
+	display: inline-block;
+    text-decoration: none;
+    background: #2dcc70;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+footer{
+	background: #eee;
+    color: #464c52;
+}
+.copyright{
+	width: 50%;
+    float: left;
+    font-size: 20px;
+}
+.copyright p{}
+.footer-menu{
+	    width: 50%;
+    float: left;
+}
+.footer-menu ul{
+	 text-align: right;
+}
+.footer-menu ul li{
+	list-style: none;
+    display: inline-block;
+}
+.footer-menu ul li a{
+	color: #464c52;
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+.footer-menu ul li a:after{}
+.footer-menu ul li a:hover{}
+
+
+
+
+
